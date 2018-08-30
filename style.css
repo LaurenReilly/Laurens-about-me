@@ -53,32 +53,29 @@ h2 {
 
 /* about section and imagemap */
 .about {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 ul {
     list-style: none;
     padding: 0;
+    width: 220px;
 }
 
 .left {
     color: white;
-    display: flex;
-    flex-direction: column;
     text-align: center;
     margin-right: 2px;
-    flex-wrap: wrap;
+    float: left;
 }
 
 
 .right{
     color: white;
-    display: flex;
-    flex-direction: column;
     text-align: center;
     margin-left: 2px;
-    flex-wrap: wrap;
+    float: right;
 }
 
 li {
@@ -92,19 +89,20 @@ ul:last-child{
 }
 
 .imagemap {
+    display: inline-block;
     box-sizing: border-box;
     width: 970px;
     height: 510px;
     background-color: black;
     border: 5px solid #66cc00;
     border-radius: 20px;
-    flex-grow: 2;
+    /* flex-grow: 2; */
 }
 
 /* hide items until they are revealed by clicking on image map */
 
 .hidden {
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 
