@@ -1,0 +1,39 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Griffy', cursive;*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border: 5px solid #66cc00;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.face {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+h1 {
+    font-size: 6em;
+    color: white;
+    font-family: 'Griffy', cursive;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.imagemap {
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    border: 5px solid #66cc00;
+    border-radius: 20px;
+    margin: 0 auto;
+}
